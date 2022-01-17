@@ -21,6 +21,7 @@ data = {'color': ['blue' , 'green ' ,'yellow' , ' red', 'white'],
 frame = pd. DataFrame(data)
 print(frame)
 
+
 frame3 = pd.DataFrame(np.arange(16).reshape((4,4)),
             index=[ 'red' , 'blue ' , 'yellow ' , ' white'],
             columns=[ 'ball' ,'pen', 'pencil' , ' paper'])
