@@ -23,11 +23,13 @@ def print_pd_DataFrame():
             'object':[ 'bali' ,' pen ' ,' pencii ' , ' paper ', 'mug' ],
             'price': [1.2,1.0,0.6,0.9,1.7]}
     frame = pd. DataFrame(data)
+
     print(frame)
 
     frame3 = pd.DataFrame(np.arange(16).reshape((4,4)),
                 index=[ 'red' , 'blue ' , 'yellow ' , ' white'],
                 columns=[ 'ball' ,'pen', 'pencil' , ' paper'])
+
     print(frame3.columns)
 
 
