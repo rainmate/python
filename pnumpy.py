@@ -15,6 +15,7 @@ def print_dict():
     print(myseries)
     colors = [ 'red' ,'yellow' , 'orange' , 'blue' ,'green']
     myseries = pd. Series(mydict,index=colors)
+    
     print(myseries)
 
 def print_pd_DataFrame():
