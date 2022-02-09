@@ -6,6 +6,7 @@ import urllib
 def print_Series():
     arr = np.array([12,34,45.56,55])
     s3 = pd.Series(arr,index=['white','blue','green','yellow'])
+
     print(s3)
 
 def print_dict():
